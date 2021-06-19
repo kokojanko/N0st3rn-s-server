@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  padding-top: 10%;
+  background-color: #f8f9fa;
+  margin-left: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 260px;
+  z-index: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar{
+  font-size: 1.5em;
+}
+.navbar-brand{
+  font-size: 2em;
+}
+.nav-item{
+  margin-left: 15px;
+}
+.wrapper{
+  width: calc(100% - 20px);
+  height: auto;
+  margin-left: 10px ;
+  margin-top: 20px;
+}
+.miniDiscription{
+  margin-top: 40px;
+}
+.DiscriptionImg{
+  padding-left: 20px ;
+  display: inline-block;
+}
+.disc{
+  float: left;
+  width: 650px;
+  height: 760px;
+  margin-left: 20px;
+}
+	
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 650px;
+    height: 500px;
+    float: right;
+}
+ 
+.slider-img {
+    position: absolute;
+    transition: all 0.7s;
+}
+ 
+.slider-img-prev {
+    transform: translateX(-100%);
+}
+ 
+.slider-img-next {
+    transform: translateX(100%);
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
 }
