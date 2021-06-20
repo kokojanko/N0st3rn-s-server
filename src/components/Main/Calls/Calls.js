@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Contact from './contact'
-import Test from '../Discription/img/test2.png'
+import Test from '../img/test2.png'
 
 function Calls(){
 

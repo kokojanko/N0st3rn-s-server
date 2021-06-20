@@ -1,8 +1,26 @@
+.clearfix:before, .clearfix:after {
+
+	content: " ";
+
+	display: table;
+
+}
+
+.clearfix:after {
+
+	clear: both;
+
+}
+
+.clearfix {
+
+	*zoom: 1;
+
+}
 .dropbtn {
   border: none;
   cursor: pointer;
   padding-top: 10%;
-  background-color: #f8f9fa;
   margin-left: 15px;
 }
 
@@ -15,7 +33,7 @@
   display: none;
   position: absolute;
   min-width: 260px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdown-content a {
@@ -31,17 +49,21 @@
 .navbar{
   font-size: 1.5em;
 }
+.bgg{
+  background-color: none;
+}
 .navbar-brand{
   font-size: 2em;
 }
 .nav-item{
   margin-left: 15px;
 }
+
 .wrapper{
   width: calc(100% - 20px);
   height: auto;
   margin-left: 10px ;
-  margin-top: 20px;
+  z-index: 1;
 }
 .miniDiscription{
   margin-top: 40px;
@@ -56,6 +78,7 @@
   width: 650px;
   height: 760px;
   margin-left: 20px;
+  margin-top: 30px;
 }
 	
 .slider {
@@ -64,6 +87,8 @@
     width: 650px;
     height: 500px;
     float: right;
+    margin-top: 50px;
+    margin-left: 60px;
 }
  
 .slider-img {
@@ -133,4 +158,110 @@ textarea {
 .nodec{
   text-decoration: none;
 }
-
+.AgeOfAncient{
+  text-align: center;
+}
+.TheNote{
+  margin-top: 40px;
+}
+.story{
+  font-size: 1.3em;
+}
+.WhatIsGoingOnNow {
+  text-align: center;
+  padding-top: 30px ;
+}
+.mt{
+  margin-top: 70px;
+}
+.fs1{
+  font-size: 1.3em;
+}
+.containerMobs{
+  width: auto;
+}
+.containerMobs h3{
+  text-align: center;
+}
+.containerMobsOne{
+  border: solid silver 2px;
+  height: 320px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 3%;
+  margin-top: 10px;
+  transition: 0.5s;
+  background: white;
+  box-shadow: 0 3px 10px #ccc;
+  transform: rotate(5deg);
+  transition: all 0.7s ease;
+  padding: 5px;
+  z-index: 100;
+  margin-top: 30px;
+}
+.containerMobsOne:hover {
+  transform: rotate(-1deg);
+  box-shadow: 0 2px 3px #666;
+}
+.containerMobs h3{
+  margin-top: 40px;
+}
+.alert{
+  width: 500px;
+  height: 350px;
+  float: right;
+}
+.btn-primary{
+  border-radius: 6px;
+}
+.rules{
+  margin-left: 30px;
+}
+.rules ul{
+  margin-left: 20px;  
+}
+.triangle{
+  width: 300px;
+  height: 340px;
+  float: left;
+  margin-left: 15%;
+}
+.WhoAreYou{
+  display: block;
+  width: 50%;
+  float: left;
+}
+.rulesAndOrder h4{
+    margin-top: 30px;
+}
+.kindom h4{  
+  margin-left: 5%;
+  
+}
+.Void {
+  margin-left: 3%;
+}
+.Void p{
+  margin-left: 5%;
+}
+.Roborn{
+  margin-left: 3%;
+}
+.Roborn p{
+  margin-left: 5%;
+}
+.lighters{
+  margin-left: 3%;
+}
+.lighters p{
+  margin-left: 5%;
+}
+/* bg img */
+.coridorBG{
+  background-image: url(./components/Features/img/coridor.gif);
+  color: white;
+  background-size: cover;
+}
+.mainBG{
+  background-image: url(./components/Main/img/BGI.gif);
+}

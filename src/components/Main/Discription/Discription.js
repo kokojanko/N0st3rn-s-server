@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import Test from './img/test2.png'
+import Test from '../img/test2.png'
 
 function Discription(){
 
@@ -28,7 +28,7 @@ useEffect(() => {
 
     return(
         <div className='wrapper'>
-            <div className='miniDiscription'>
+            <div className='miniDiscription '>
             <div className='disc'>
                 <h1>Что такое server N0st3rn
                     <br />
@@ -40,8 +40,8 @@ useEffect(() => {
                         N0st3rn(не забыть вставить название сервера) это RP сервер,
                          где есть (написать amount эр) эр
                         <ol>
-                            <li>(не зыбать название эры)</li>
-                            <li>(не зыбать название эры)</li>
+                            <li>The age of ancient</li>
+                            <li>Age of finding</li>
                             <li>(не зыбать название эры)</li>
                         </ol>
                     </li>
