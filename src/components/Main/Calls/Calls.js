@@ -28,7 +28,7 @@ function Calls(){
             const nextImgIndex = activeIndex === img.length - 1 ? 0 : activeIndex + 1
 
     return(
-        <div className='wrapper fl'>
+        <div className='wrapper clearfix'>
         
             <div className="slider fl">
         <div className="slider-img slider-img-prev"

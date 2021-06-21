@@ -3,6 +3,7 @@ import Test from '../../Main/img/test2.png'
 import Buttons from './Buttons1'
 import Alert1 from './Alert1'
 import Triangle from './img/Triangle.png'
+import Search from './img/Seacrch.gif'
 
     export const AlertContext = React.createContext()
 
@@ -48,6 +49,7 @@ function Now(){
                         </ul>
                     </ol>
                     <br />
+                    <div>
                     <h3 id='world'>
                         I  &nbsp; Устройство мира
                         
@@ -81,9 +83,10 @@ function Now(){
                         <div className='containerMobsOne'>
                         <img src={Test} width='190px' height='250px'></img>
                         Брошенная лабаратория
-                        </div>
+                        </div>  
                         </p>
                         
+                </div>
                 </div>
                 <div className='rulesAndOrder'>
                     <h3 id='rules'>II &nbsp; Права и правила</h3>
@@ -142,7 +145,7 @@ function Now(){
                                 Брошенная лабаратория
                             </div>
                         </div>
-                        <div className='Roborn'>
+                        <div className='Roborn findBG'>
                             <h4>2. Королевство Ищущих</h4>
                             <p>
                                 Королевство в котором и состою я всё время что то ищет. Например технологии. Лично я королевский учёный, который занимается веком древних, ищущий ответы на то кто мы, и почему рождаемся с определённым набором знаний.

@@ -6,6 +6,7 @@ import Main from "./components/Main/Main";
 import Past from "./components/Lore/Past/Past";
 import Now from "./components/Lore/Now/Now";
 import Features from "./components/Features/Features";
+import Plans from "./components/Plans/Plans";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/past' component={Past} />
         <Route exact path='/now' component={Now} />
         <Route exact path='/features' component={Features} />
+        <Route exact path='/plans' component={Plans} />
       </Switch>
     </Router>
   );

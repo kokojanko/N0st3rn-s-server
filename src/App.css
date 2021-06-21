@@ -22,6 +22,7 @@
   cursor: pointer;
   padding-top: 10%;
   margin-left: 15px;
+  background-color: #fff;
 }
 
 .dropdown {
@@ -264,4 +265,8 @@ textarea {
 }
 .mainBG{
   background-image: url(./components/Main/img/BGI.gif);
+}
+.findBG{
+  background-image: url(./components/Lore/Now/img/Seacrch.gif);
+  background-size: auto 
 }

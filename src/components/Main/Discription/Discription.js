@@ -27,7 +27,7 @@ useEffect(() => {
         const nextImgIndex = activeIndex === img.length - 1 ? 0 : activeIndex + 1
 
     return(
-        <div className='wrapper'>
+        <div className='wrapper clearfix'>
             <div className='miniDiscription '>
             <div className='disc'>
                 <h1>Что такое server N0st3rn
