@@ -4,7 +4,7 @@ import Calls from './Calls/Calls'
 
 function Main(){
     return(
-    <div>
+    <div className='mainPage mainBG'>
       <Discription />
       <Calls />
     </div>

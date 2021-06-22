@@ -5,7 +5,7 @@ function Sidebar(){
     return(
         <div>
             <nav className="navbar navbar-expand-lg navbar-light ">
-  <div className="container-fluid">
+  <div className="container-fluid ">
     <a className="navbar-brand" href="#">N0st3rn</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -19,7 +19,7 @@ function Sidebar(){
           <a className="nav-link" href="/features">Features</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/plans">Plans</a>
+          <a className="nav-link" href="/else">Else</a>
         </li>
         <div class="dropdown">
             <button class="dropbtn">Lore &darr;</button>

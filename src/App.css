@@ -50,9 +50,6 @@
 .navbar{
   font-size: 1.5em;
 }
-.bgg{
-  background-color: none;
-}
 .navbar-brand{
   font-size: 2em;
 }
@@ -199,10 +196,12 @@ textarea {
   padding: 5px;
   z-index: 100;
   margin-top: 30px;
+  opacity: 0.2;
 }
 .containerMobsOne:hover {
-  transform: rotate(-1deg);
+  transform: rotate(-1deg) scale(1.2) ;
   box-shadow: 0 2px 3px #666;
+  opacity: 1;
 }
 .containerMobs h3{
   margin-top: 40px;
@@ -258,15 +257,60 @@ textarea {
   margin-left: 5%;
 }
 /* bg img */
+
 .coridorBG{
   background-image: url(./components/Features/img/coridor.gif);
   color: white;
   background-size: cover;
 }
 .mainBG{
-  background-image: url(./components/Main/img/BGI.gif);
+  background-image: url(./components/Main/img/mainBG.gif);
+  background-size: contain;
 }
 .findBG{
   background-image: url(./components/Lore/Now/img/Seacrch.gif);
   background-size: auto 
+}
+.mainPage{
+  color: white;
+}
+.wrapperMassage{
+  width: 60%;
+}
+.wrapperEmail{
+  width: 60%;
+}
+.wrapperKindom{
+  font-family: "Inter", sans-serif;
+  width: 30%;
+  float: right;
+  margin-right: 0%;
+  margin-top: 0px;  
+  
+}
+.discordWidg{
+  float: left;
+}
+.Containerarrow{
+  float: left;
+  border: solid silver 2px;
+  width: 40%;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 10%;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+
+}
+
+.arrow{
+  display: inline-flex;
+  transition: 0.3s;
+}
+.rotate{
+  transform: rotate(180deg);
+}
+.stick{
+  display: inline-flex;
 }
