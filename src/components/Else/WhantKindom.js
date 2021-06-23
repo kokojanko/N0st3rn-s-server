@@ -34,9 +34,9 @@ const WhatKindom = () => {
   };
 
   return (
-    <form className="wrapperKindom wrapperContact" onSubmit={handleSubmit}>
-      <h1>Заявка в<br /> королевство</h1>
-        <div className='wrapperName'>
+    <form className="wrapperKindom wrapperContact KindomBG" onSubmit={handleSubmit}>
+      <h2 className="kindomWhant">Заявка в королевство</h2>
+        <div className='wrapperName center'>
         <h4>Ваш ник в дискорде</h4>
         <input
             placeholder="Ник#0000"
@@ -44,7 +44,7 @@ const WhatKindom = () => {
             onChange={(e) => setName(e.target.value)}
         />
     </div>
-    <div className='wrapperEmail'>
+    <div className='wrapperEmail center'>
       <h4>В какое королевство хотите вступить</h4>
       <input
         placeholder="Бездонное"
@@ -52,7 +52,7 @@ const WhatKindom = () => {
         onChange={(e) => setEmail(e.target.value)}
       />
     </div>
-    <div className='wrapperMassage'>
+    <div className='wrapperMassage center'>
       <h4>Почему хотите вступить и кем хотите стать</h4>
       <textarea
         placeholder="Почему?"
@@ -60,12 +60,12 @@ const WhatKindom = () => {
         onChange={(e) => setMessage(e.target.value)}
       ></textarea>
     </div>
-    <div className='wrapperSubmit'>
+    <div className='wrapperSubmit center'>
       <button
         type="submit"
         style={{ background: loader ? "#ccc" : " rgb(16, 152, 214)" }}
       >
-        Submit
+        Отправить
       </button>
     </div>
     </form>

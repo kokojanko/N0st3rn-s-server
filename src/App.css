@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Old';
+  src: url("./components/Else/KirangHaerang-Regular.ttf") format("truetype"); 
+  font-weight: 500; 
+  font-style: normal; 
+}
 .clearfix:before, .clearfix:after {
 
 	content: " ";
@@ -107,12 +113,16 @@
 .fr{
   float: right;
 }
+.center{
+  margin-left: 25%;
+  margin-right: 25%;
+}
 .wrapperContact{
   font-family: "Inter", sans-serif;
-  width: 30%;
   float: right;
-  margin-right: 20%;
+  margin-right: 15%;
   margin-top: 50px;  
+
 }
 textarea {
   padding: 20px;
@@ -271,6 +281,21 @@ textarea {
   background-image: url(./components/Lore/Now/img/Seacrch.gif);
   background-size: auto 
 }
+.paperBG{
+  background-image: url(./components/Else/img/Old_paper4.png);
+  background-size: 500px 100%;
+  background-repeat: no-repeat;
+}
+.BGelse{
+  background-image: url(./components/Else/img/BGelse.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.KindomBG{
+  background-image: url(./components/Else/img/Old_paper4.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .mainPage{
   color: white;
 }
@@ -283,34 +308,42 @@ textarea {
 .wrapperKindom{
   font-family: "Inter", sans-serif;
   width: 30%;
-  float: right;
-  margin-right: 0%;
-  margin-top: 0px;  
-  
+  float: left;
+  margin-left: 10%;
+  color: black;
+  height: 600px;
+}
+.kindomWhant{
+  margin-top: 40px;
+  margin-left: 15%;
 }
 .discordWidg{
+  margin-left: 5%;
+  margin-top: 30px;
   float: left;
+  padding-bottom: 20px;
 }
-.Containerarrow{
+.news{
+  width: 500px;
+  height: 500px;
+  text-align: center;
   float: left;
-  border: solid silver 2px;
-  width: 40%;
-  height: auto;
-  margin-left: 4%;
-  margin-top: 10%;
-  font-size: 5em;
-  display: flex;
-  justify-content: center;
-
+  font-size: 1.2em;
+  margin-top: 50px;
+  transform: translateX(250%) rotate(20deg);
+  transition: 1s;
+  position: absolute;
+  cursor: pointer;
+} 
+.news:hover{
+  transform: translateX(200%) rotate(-1deg);
+  transition: 1s ;
 }
-
-.arrow{
-  display: inline-flex;
-  transition: 0.3s;
+.news div{
+  margin-top: 20%;
+  width: calc(100% - 10%);
+  margin-left: 5%;
 }
-.rotate{
-  transform: rotate(180deg);
-}
-.stick{
-  display: inline-flex;
+.h1200{
+  height: 1200px;
 }
