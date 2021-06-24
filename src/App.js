@@ -7,8 +7,6 @@ import Past from "./components/Lore/Past/Past";
 import Now from "./components/Lore/Now/Now";
 import Features from "./components/Features/Features";
 import Else from "./components/Else/Else";
-import DarkPast from  './components/Lore/Past/DarckPast'
-import DarkNow from './components/Lore/Now/DarkNow'
 
 function App() {
   return (
@@ -22,8 +20,6 @@ function App() {
         <Route exact path='/now' component={Now} />
         <Route exact path='/features' component={Features} />
         <Route exact path='/else' component={Else} />
-        <Route exact path='/darkTheme' component={DarkPast} />
-        <Route exact path='/darkNow' component={DarkNow} />
       </Switch>
     </Router>
   );

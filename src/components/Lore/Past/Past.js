@@ -1,14 +1,27 @@
-import React from 'react'
+import React, { useState, useMemo } from 'react'
 import StoryPast from './StoryPst'
 
 function Past(){
+    const [colored, setColored] = useState(false)
+
+    const styles = useMemo(() => ({
+        color: colored ? 'white' : 'black',
+      }), [colored])
+      const [theme, setTheme] = useState(false)
+
+    const change = useMemo(() => ({
+        background: theme ? 'rgb(42, 42, 42)' : 'white',
+      }))
+
     return(
-        <div className='wrapper'>
-            <div className='chooseTheme mt'>
-                <a href='/DarkTheme'><div className='theme'></div></a>
-                <a href='/past'><div className='theme whiteTheme'></div></a>
+        <div style={styles} className='wrapper posAB'>
+            <div style={change} className='posAB'>
+                <button className=' btn btn-light changeBG' onClick={() => setTheme(prev => !prev)}>Изменить задний фон</button>
+                <button className='btn btn-dark changeColor' onClick={() => setColored(prev => !prev)}>Изменить текст</button>
+            <div className='AncientContainer'></div>
+                <StoryPast />
             </div>
-            <StoryPast />
+
         </div>
     )
 }

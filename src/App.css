@@ -275,16 +275,9 @@ textarea {
   color: white;
   background-size: cover;
 }
-.Nbg{
-  background-color: rgba(255, 255, 255, 0);
-}
 .mainBG{
   background-image: url(./components/Main/img/mainBG.gif);
   background-size: contain;
-}
-.findBG{
-  background-image: url(./components/Lore/Now/img/Seacrch.gif);
-  background-size: auto 
 }
 .paperBG{
   background-image: url(./components/Else/img/Old_paper4.png);
@@ -300,10 +293,6 @@ textarea {
   background-image: url(./components/Else/img/Old_paper4.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-.BGblack{
-  background-color: rgb(42, 42, 42);
-  color: rgb(177, 177, 177);
 }
 .mainPage{
   color: white;
@@ -411,4 +400,16 @@ textarea {
   transform: translateX(200%) translateY(250px) rotate(-1deg);
   transition: 1s ;
   z-index: 2;
+}
+.changeBG{
+  border: 1px solid black;
+  margin-top: 10px;
+  position: absolute;
+}
+.changeColor{
+  position: absolute;
+  margin-top: 80px;
+}
+.posAB{
+  position: absolute;
 }

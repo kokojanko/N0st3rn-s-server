@@ -3,7 +3,6 @@ import Test from '../../Main/img/test2.png'
 import Buttons from './Buttons1'
 import Alert1 from './Alert1'
 import Triangle from './img/Triangle.png'
-import Search from './img/Seacrch.gif'
 
 export const AlertContext = React.createContext()
 
@@ -145,7 +144,7 @@ function StoryNow(){
                                 Брошенная лабаратория
                             </div>
                         </div>
-                        <div className='Roborn findBG'>
+                        <div className='Roborn'>
                             <h4>2. Королевство Ищущих</h4>
                             <p>
                                 Королевство в котором и состою я всё время что то ищет. Например технологии. Лично я королевский учёный, который занимается веком древних, ищущий ответы на то кто мы, и почему рождаемся с определённым набором знаний.

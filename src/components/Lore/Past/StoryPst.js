@@ -83,7 +83,7 @@ function StoryPast(){
                         В дороге создам другой.  
                     </p>
             </div>
-        </div>
+            </div>
     )
 }
 export default StoryPast
