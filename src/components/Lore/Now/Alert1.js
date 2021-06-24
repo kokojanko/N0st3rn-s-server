@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { AlertContext } from './Now'
+import { AlertContext } from './StoryNow'
 
 function Alert1 (){
 

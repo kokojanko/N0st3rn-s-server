@@ -55,6 +55,7 @@
 
 .navbar{
   font-size: 1.5em;
+  z-index: 3;
 }
 .navbar-brand{
   font-size: 2em;
@@ -168,6 +169,7 @@ textarea {
 }
 .AgeOfAncient{
   text-align: center;
+  margin-top: 50px;
 }
 .TheNote{
   margin-top: 40px;
@@ -273,6 +275,9 @@ textarea {
   color: white;
   background-size: cover;
 }
+.Nbg{
+  background-color: rgba(255, 255, 255, 0);
+}
 .mainBG{
   background-image: url(./components/Main/img/mainBG.gif);
   background-size: contain;
@@ -295,6 +300,10 @@ textarea {
   background-image: url(./components/Else/img/Old_paper4.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+.BGblack{
+  background-color: rgb(42, 42, 42);
+  color: rgb(177, 177, 177);
 }
 .mainPage{
   color: white;
@@ -334,6 +343,7 @@ textarea {
   transition: 1s;
   position: absolute;
   cursor: pointer;
+  z-index: 2;
 } 
 .news:hover{
   transform: translateX(200%) rotate(-1deg);
@@ -344,6 +354,61 @@ textarea {
   width: calc(100% - 10%);
   margin-left: 5%;
 }
-.h1200{
-  height: 1200px;
+.chooseTheme{
+  width: 100px;
+  height: 50px;
+  position: absolute;
+}
+.theme{
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 4px 15px #666;
+  display: inline-block;
+  margin-left: 10px;
+}
+.whiteTheme{
+  background-color: gray;
+}
+.sidebarblack{
+  width: calc(100% - 20px);
+  height: 150px;
+  position: absolute;
+  transform: translateY(-140px);
+  z-index: 1;
+}
+.wrapperFoot{
+  width: 100%;
+  height: 150px;
+  background-color: rgb(41, 41, 41);
+  margin-top: 5%;
+}
+.contacts{
+  float: left;
+  width: 16%;
+ height: 150px;
+ margin-left: 01%;
+ color: white;
+}
+.double{
+  width: 30%;
+}
+.double{
+  margin-top: 0px;
+}
+.double h3{
+  margin-top: 50px;
+}
+.contacts ul{
+  margin-top: 5px;
+  font-size: 1.1em;
+}
+.thank{
+  transform: translateX(250%) translateY(250px) rotate(20deg);
+  z-index: 1;
+}
+.thank:hover{
+  transform: translateX(200%) translateY(250px) rotate(-1deg);
+  transition: 1s ;
+  z-index: 2;
 }
