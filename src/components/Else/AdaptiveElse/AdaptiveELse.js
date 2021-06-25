@@ -2,7 +2,7 @@ import React from 'react'
 
 function AdaptiveElse(){
     return(
-        <div className='adaptiveWrapper'>
+        <div className='erreguler adaptiveWrapper'>
             LUL
         </div>
     )

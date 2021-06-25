@@ -205,7 +205,7 @@ textarea {
   padding: 5px;
   z-index: 100;
   margin-top: 30px;
-  opacity: 0.2;
+  opacity: 0.7;
 }
 .containerMobsOne:hover {
   transform: rotate(-1deg) scale(1.2) ;
@@ -293,6 +293,11 @@ textarea {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.SvitokBG{
+  background-image: url(./components/Else/img/svitok.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .mainPage{
   color: white;
 }
@@ -375,15 +380,6 @@ textarea {
   margin-top: 5px;
   font-size: 1.1em;
 }
-.thank{
-  transform: translateX(250%) translateY(250px) rotate(20deg);
-  z-index: 1;
-}
-.thank:hover{
-  transform: translateX(200%) translateY(250px) rotate(-1deg);
-  transition: 1s ;
-  z-index: 2;
-}
 .changeBG{
   border: 1px solid black;
   margin-top: 10px;
@@ -404,6 +400,32 @@ textarea {
 }
 .erreguler{
   display: block !important;
+}
+.conteinerThanks{
+  border: solid silver 2px;
+  width: 100%;
+  height: 100%;
+}
+.thank{
+  width: 500px;
+  height: 600px;
+  float: left;
+  margin-left: 70px;
+  text-align: center;
+  color: wheat;
+}
+.context{
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+@media screen and (max-width: 1280px) {
+  .wrapperContact{
+    background-image: none;
+    color: wheat;
+    margin: 0px;
+    padding: 0px;
+  }
 }
 @media screen and (max-width: 480px){
   .ADbutton{
@@ -447,4 +469,11 @@ textarea {
   .containerMobsOne{
     opacity: 1;
   }
-}
+  .thank{
+    width: 450px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 0px;
+  }
+
+} 

@@ -4,7 +4,7 @@ import Foot from './Footer/Footer'
 
 function Plans(){
     return(
-        <div className='wrapper clearfix BGelse'>
+        <div className='erreguler wrapper clearfix BGelse'>
             <Content />
             <Foot />
         </div>
