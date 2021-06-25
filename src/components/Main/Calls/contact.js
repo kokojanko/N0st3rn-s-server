@@ -34,7 +34,7 @@ const Contact = () => {
   };
 
   return (
-    <form className="wrapperContact" onSubmit={handleSubmit}>
+    <form className="ADwrapperContact wrapperContact" onSubmit={handleSubmit}>
       <h1>Поддержка</h1>
         <div className='wrapperName'>
         <h4>Укажите ваше имя</h4>

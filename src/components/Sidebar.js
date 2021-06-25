@@ -1,15 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
+import Buttons from './ButtonSide'
+import Alert1 from './AlertSide'
 
+export const AlertContext = React.createContext()
 
 function Sidebar(){
+
+    const [alert, setAlert] = useState(false)
+
+    const toogleAlert = () => setAlert(prev => !prev)
+    
     return(
+      <AlertContext.Provider value={alert}>
         <div>
   <nav className="navbar navbar-expand-lg navbar-light Nbg">
   <div className="container-fluid ">
     <a className="navbar-brand" href="#">N0st3rn</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
+    <Alert1 />  
+    <Buttons toogle = {toogleAlert} />
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item">
@@ -33,6 +41,7 @@ function Sidebar(){
   </div>
 </nav>
         </div>
+      </AlertContext.Provider>
     )
 }
 

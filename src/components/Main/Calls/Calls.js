@@ -51,10 +51,9 @@ function Calls(){
             </h1>
                 <div className='Caller'>
                     <h2>Как с нами связаться?</h2>
-                    <ul>
+                    <ul className='fs-3'>
                         <li>discord: <a href='https://discord.gg/2ryT66Srja'>https://discord.gg/2ryT66Srja</a></li>
                         <li>VK:..............</li>
-                        <li>Что то ещё</li>
                         <li>Служба поддержки прямо справа от этого текста 	&#128736;</li>
                     </ul>
                 </div>

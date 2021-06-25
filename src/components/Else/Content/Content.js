@@ -1,5 +1,6 @@
 import React from 'react'
 import WhatKindom from './WhantKindom'
+import AdaptiveElse from '../AdaptiveElse/AdaptiveELse'
 
 function Content(){
     return(
@@ -26,6 +27,7 @@ function Content(){
                         <p className='fs-3'><i>Master и DELETED за помощь в создании боссов, мобов, дропа, сюжета и предметов</i></p>
                     </div>
                 </div>
+                <AdaptiveElse />
             </div>
     )
 }

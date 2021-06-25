@@ -121,8 +121,7 @@
 .wrapperContact{
   font-family: "Inter", sans-serif;
   float: right;
-  margin-right: 15%;
-  margin-top: 50px;  
+  width: auto;
 
 }
 textarea {
@@ -155,10 +154,8 @@ textarea {
   background-color: rgb(16, 152, 214);
 }
 .Caller{
-  width: 300px;
   float: left;
-  margin-top: 50px;
-  font-size: 1.3em;
+  width: 200px;
 }
 .titleCall{
   width: 100%;
@@ -219,9 +216,11 @@ textarea {
   margin-top: 40px;
 }
 .alert{
-  width: 500px;
-  height: 350px;
-  float: right;
+  width: auto;
+  height: auto;
+}
+.sideAlert{
+  float: none;
 }
 .btn-primary{
   border-radius: 6px;
@@ -343,22 +342,6 @@ textarea {
   width: calc(100% - 10%);
   margin-left: 5%;
 }
-.chooseTheme{
-  width: 100px;
-  height: 50px;
-  position: absolute;
-}
-.theme{
-  background-color: black;
-  width: 30px;
-  height: 30px;
-  box-shadow: 0 4px 15px #666;
-  display: inline-block;
-  margin-left: 10px;
-}
-.whiteTheme{
-  background-color: gray;
-}
 .sidebarblack{
   width: calc(100% - 20px);
   height: 150px;
@@ -412,4 +395,56 @@ textarea {
 }
 .posAB{
   position: absolute;
+}
+.adaptiveWrapper{
+  display: none;
+}
+.ADbutton{
+  display: none;
+}
+.erreguler{
+  display: block !important;
+}
+@media screen and (max-width: 480px){
+  .ADbutton{
+    display: block;
+  }
+  .erreguler{
+    display: none;
+  }
+  .wrapper{
+    display: none;
+  }
+  .mainBG{
+    background-size: contain;
+  }
+  .adaptiveWrapper{
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  .ADimgDisc{
+    margin-left: 20px;
+    transform: rotate(10deg);
+    box-shadow: 0px 0px 40px #666;
+    margin-top: 40px;
+  }
+  .ADcall{
+    margin-top: 40px;
+  }
+  .ADwrapperContact{
+    width: auto;
+    height: auto;
+    float: none;
+    margin-left: 100px;
+  }
+  .changeColor{
+    width: 100px;
+  }
+  .changeBG{
+    width: 120px;
+  }
+  .containerMobsOne{
+    opacity: 1;
+  }
 }

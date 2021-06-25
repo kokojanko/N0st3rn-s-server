@@ -14,7 +14,7 @@ function Past(){
       }))
 
     return(
-        <div style={styles} className='wrapper posAB'>
+        <div style={styles} className='erreguler wrapper posAB'>
             <div style={change} className='posAB'>
                 <button className=' btn btn-light changeBG' onClick={() => setTheme(prev => !prev)}>Изменить задний фон</button>
                 <button className='btn btn-dark changeColor' onClick={() => setColored(prev => !prev)}>Изменить текст</button>

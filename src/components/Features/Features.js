@@ -3,7 +3,7 @@ import Test from '../Main/img/test2.png'
 
 function Features(){
     return(
-        <div className='wrapper coridorBG'>
+        <div className='erregulerwrapper coridorBG'>
             <h1 className='WhatIsGoingOnNow'> What will you find on this server
                     <br />
             &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;

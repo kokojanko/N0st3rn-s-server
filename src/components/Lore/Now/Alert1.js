@@ -9,7 +9,7 @@ function Alert1 (){
 
     return(
         <div class="alert" role="alert">
-            <div></div>
+            <div>POG</div>
         </div>
     )
 }
